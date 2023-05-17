@@ -1,0 +1,28 @@
+.menu {
+    background-color: #447e1a;
+    color: #eee;
+    
+    & ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+
+        display: flex;
+        gap: 10px;
+
+        & li {
+            display: block;
+            padding: 10px 20px; 
+
+            & a {
+                font-size: 24px;
+            }  
+        }
+    }
+}
+
+.active {
+    text-decoration: underline;
+    padding: 0;
+    color: inherit;
+}

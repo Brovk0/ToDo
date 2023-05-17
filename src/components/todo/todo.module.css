@@ -1,0 +1,49 @@
+p,
+h3,
+h2 {
+   margin            : 10px;
+   margin-block-start: 1.5px;
+   margin-block-end  : 1.5px;
+}
+
+.todo {
+   width        : 500px;
+   padding      : 10px;
+   border       : 2px #26460e solid;
+   border-radius: 10px;
+   box-shadow   : 10px 5px 5px black;
+}
+
+.text {
+   width        : 450px;
+   height       : 50%;
+   overflow-x   : hidden;
+   border       : 1px #26460e solid;
+   border-radius: 5px;
+   padding      : 10px;
+   margin            : 10px;
+}
+
+.teg {
+   background-color: #92ee4b;
+   padding         : 0px;
+   font-size       : 20px;
+}
+
+.date {
+   display        : flex;
+   justify-content: space-between;
+}
+
+.footerTodo {
+   display        : flex;
+   justify-content: space-between;
+   margin            : 10px;
+}
+
+.nameProject {
+   align-self   : flex-end;
+   border       : yellowgreen 1px solid;
+   border-radius: 5px;
+   margin            : 10px;
+}

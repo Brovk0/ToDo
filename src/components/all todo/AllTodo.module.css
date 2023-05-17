@@ -1,0 +1,17 @@
+.allTodo{
+    display: flex;
+    flex-direction:column;
+    gap: 20px;
+    align-items: center;
+    padding: 20px;
+}
+
+.searchCllas{
+    width: 400px;
+}
+
+.searchDiv{
+    display: flex;
+    gap: 1px;
+}
+

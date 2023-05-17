@@ -1,0 +1,14 @@
+.delTodo{
+    display: flex;
+    flex-direction:column;
+    gap: 20px;
+    align-items: center;
+    padding: 20px;
+}
+
+.combined{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    gap: 20px;
+}
